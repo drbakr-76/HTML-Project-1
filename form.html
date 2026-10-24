@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <hr>
+    <h3>1. Personal Information</h3>
+    <hr>
+    <form>
+        <label for="fname">Full Name:</label>
+        <br>
+        
+        <input type="text" name="Full Name" id="fname" placeholder="Enter your full name">
+        <br>
+        <br>
+         <label for="mail">Email Address:</label>
+         <br>
+        <input type="email" name="email address" id="mail" placeholder="you@example.com">
+        <br>
+         <br>
+         <label for="telephone">Phone Number:</label>
+         <br>
+        <input type="number" name="Phone" id="telephone" placeholder="e.g. 08012345678">
+        <br>
+        <br>
+        <label for="d.o.b">Date of Birth:</label>
+        <br>
+        <input type="date" name="Date of birth" id="d.o.b">
+         <br>
+         <br>
+         <label for="gender">Gender:</label>
+         <br>
+         <input type="radio" name="Gender" id="gender">  Male
+         <input type="radio" name="Gender" id="gender">  Female
+         <br>
+         <br>
+         <label for="origin">State of Origin:</label>
+         <br>
+         <input type="text" name="State" id="origin" placeholder="Type your state of origin">
+         <hr>
+         <h3>2. Academic Information</h3>
+         <hr>
+         <form>
+            <label for="university">University Name</label>
+            <br>
+            <input type="text" name="University" id="university" placeholder="Enter your University Name">
+            <br>
+            <br>
+            <label for="dept">Department</label>
+            <br>
+            <input type="text" name="Department" id="dept" placeholder="e.g. Medicine and Surgery">
+            <br>
+            <br>
+            <label for="lvl">Current Level</label>
+            <br>
+            <input type="text" name="Level" id="lvl" placeholder="100L, 200L, 300L,...">
+            <br>
+            <br>
+            <label for="matric">Matriculation Number</label>
+            <br>
+            <input type="number" name="Matric Number" id="matric" placeholder="e.g. 2024001234">
+         </form>
+         <hr>
+         <h3>3. Research Interests</h3>
+         <hr>
+         <form>
+            <label for="Interests">Select all that apply:</label>
+            <br>
+            <input type="checkbox" name="Interests" id="mdc_res"> Medical Research
+            <input type="checkbox" name="Interests" id="ai"> Artificial Intelligence
+            <input type="checkbox" name="Interests" id="tech"> Healthcare Technology
+            <br>
+            <input type="checkbox" name="Interests" id="pb_health"> Public Health
+            <input type="checkbox" name="Interests" id="mdc_edu"> Medical Education
+         </form>
+         <hr>
+         <h3>4. Additional Information</h3>
+         <hr>
+         <form>
+            <label for="info">Why do you want to join the organization?</label>
+            <br>
+            <textarea name="Additional Info" id="info" placeholder="Tell us a little about yourself and your motivation..."></textarea>
+            <br><br>
+            <label for="cv">Upload your CV</label>
+            <br>
+            <input type="file" name="CV" id="cv">
+         </form>
+         <hr>
+         <h3>5. Agreement</h3>
+         <form>
+            <input type="checkbox" name="Agreement" id="terms">
+            <label for="terms">I agree to the organization's terms and conditions.</label>
+         </form>
+         <hr>
+         <br>
+        <input type="button" value="Submit" style="background-color: dodgerblue;"> 
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
